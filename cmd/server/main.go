@@ -11,7 +11,7 @@ import (
 	"github.com/wardviaene/golang-for-devops-course/ssh-demo"
 )
 
-const configFile = ""
+const configFile = "config.yaml"
 
 func main() {
 	var (
@@ -44,5 +44,10 @@ func main() {
 		}
 
 	}
-	fmt.Printf("Server stopped: %s", server.Start(&http.Server{Addr: ":8080"}, privateKey, server.ReadConfig(config)))
+
+	err = server.Start(&http.Server{Addr: ":8080"}, privateKey, server.ReadConfig(config))
+	if err != nil {
+		log.Fatalf("Server stopped: %s", err)
+	}
+	fmt.Printf("Server stopped")
 }

@@ -1,4 +1,4 @@
-module github.com/wardviaene/golang-for-devops-course/oidc-start
+module github.com/OmarHomrani/oidc
 
 go 1.18
 

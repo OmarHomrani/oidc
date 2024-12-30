@@ -10,8 +10,8 @@ import (
 	"net/url"
 	"testing"
 
+	"github.com/OmarHomrani/oidc/pkg/oidc"
 	"github.com/golang-jwt/jwt/v4"
-	"github.com/wardviaene/golang-for-devops-course/oidc-start/pkg/oidc"
 )
 
 func TestUserInfo(t *testing.T) {

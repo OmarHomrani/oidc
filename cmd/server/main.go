@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/wardviaene/golang-for-devops-course/oidc-start/pkg/server"
+	"github.com/OmarHomrani/oidc/pkg/server"
 	"github.com/wardviaene/golang-for-devops-course/ssh-demo"
 )
 

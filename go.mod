@@ -3,7 +3,9 @@ module github.com/OmarHomrani/oidc
 go 1.21
 
 require (
-	github.com/golang-jwt/jwt/v4 v4.4.2
+ 
+    github.com/OmarHomrani/oidc/pkg/serve v0.0.0-20241230120630-d72b11a7a68f 
+	github.com/golang-jwt/jwt/v4 v4.5.1
 	github.com/wardviaene/golang-for-devops-course/ssh-demo v0.0.0-20220616215025-d61a2b0cee5f
 	gopkg.in/yaml.v3 v3.0.1
 )

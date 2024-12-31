@@ -1,9 +1,8 @@
-module oidc
+module github.com/OmarHomrani/oidc
 
 go 1.21.1
 
 require (
-	github.com/OmarHomrani/oidc v0.0.0-20241230120630-d72b11a7a68f
 	github.com/golang-jwt/jwt/v4 v4.5.1
 	github.com/wardviaene/golang-for-devops-course/ssh-demo v0.0.0-20230918131850-8398cd208d4b
 	gopkg.in/yaml.v3 v3.0.1

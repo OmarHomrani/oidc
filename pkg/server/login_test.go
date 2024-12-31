@@ -56,7 +56,7 @@ func TestLoginPost(t *testing.T) {
 	loginField := "login"
 	passwordField := "password"
 
-	loginValue := "edward"
+	loginValue := "omar"
 	passwordValue := "password"
 
 	s := newServer(privkeyPem, testConfig)

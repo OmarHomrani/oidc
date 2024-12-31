@@ -1,5 +1,3 @@
-github.com/OmarHomrani/oidc v0.0.0-20241230120630-d72b11a7a68f h1:eOwuWa8yk420AJ1Es4VBefeQjxhSzuZ4joV1KsrHUGU=
-github.com/OmarHomrani/oidc v0.0.0-20241230120630-d72b11a7a68f/go.mod h1:uR6ZKCC5B5m1wLJsDpfOYRzVetOir/FtU5IOUF6xUus=
 github.com/golang-jwt/jwt/v4 v4.5.1 h1:JdqV9zKUdtaa9gdPlywC3aeoEsR681PlKC+4F5gQgeo=
 github.com/golang-jwt/jwt/v4 v4.5.1/go.mod h1:m21LjoU+eqJr34lmDMbreY2eSTRJ1cv77w39/MY0Ch0=
 github.com/wardviaene/golang-for-devops-course/ssh-demo v0.0.0-20230918131850-8398cd208d4b h1:FtSL7b3pl/I1XcULrP0pDAZVgxUZzLZ1FcI6//1M1P0=

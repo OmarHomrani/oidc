@@ -13,21 +13,21 @@ type User struct {
 }
 
 func Auth(login, password, mfa string) (bool, User, error) {
-	if login == "edward" && password == "password" {
+	if login == "omar" && password == "password" {
 		return true, GetAllUsers()[0], nil
 	}
-	return false, User{}, fmt.Errorf("Invalid login or password")
+	return false, User{}, fmt.Errorf("Invalid login or passwordo")
 }
 
 func GetAllUsers() []User {
 	return []User{
 		{
 			Sub:               "9-9-9-9",
-			Name:              "edward",
-			GivenName:         "Edward",
-			FamilyName:        "Viaene",
-			PreferredUsername: "edward",
-			Email:             "edward@domain.inv",
+			Name:              "omar",
+			GivenName:         "Omar",
+			FamilyName:        "hm",
+			PreferredUsername: "omar",
+			Email:             "omar@domain.inv",
 		},
 	}
 }

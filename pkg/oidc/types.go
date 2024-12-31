@@ -1,6 +1,5 @@
 package oidc
 
-// discovery
 type Discovery struct {
 	Issuer                            string   `json:"issuer"`
 	AuthorizationEndpoint             string   `json:"authorization_endpoint"`
@@ -10,9 +9,11 @@ type Discovery struct {
 	ScopesSupported                   []string `json:"scopes_supported"`
 	ResponseTypesSupported            []string `json:"response_types_supported"`
 	TokenEndpointAuthMethodsSupported []string `json:"token_endpoint_auth_methods_supported"`
+	IDTokenSigningAlgValuesSupported  []string `json:"id_token_signing_alg_values_supported"`
+	ClaimsSupported                   []string `json:"claims_supported"`
+	SubjectTypesSupported             []string `json:"subject_types_supported"`
 }
 
-// token
 type Token struct {
 	AccessToken  string `json:"access_token"`
 	TokenType    string `json:"token_type"`
